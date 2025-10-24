@@ -1,0 +1,9 @@
+body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:0}
+#toolbar{padding:10px;background:#f4f4f4;border-bottom:1px solid #ddd;display:flex;gap:8px;align-items:center}
+#info{margin-left:8px;color:#666;font-size:13px}
+#stageWrap{display:flex;justify-content:center;padding:18px}
+#stage{width:900px;height:600px;border:2px dashed #bbb;background:#fff;position:relative;overflow:auto}
+#stage *{box-sizing:border-box;max-width:100%;overflow-wrap:break-word;word-break:break-word;white-space:normal}
+.selected{outline:2px solid #3b82f6;transform-origin:0 0}
+img{max-width:100%;height:auto;display:block}
+[contenteditable="true"]{outline:2px dashed #ffd54f}

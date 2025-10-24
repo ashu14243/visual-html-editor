@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Visual HTML Editor</title>
+  <link rel="stylesheet" href="src/app.css">
+</head>
+<body>
+  <div id="toolbar">
+    <input id="importFile" type="file" accept=".html" style="display:none">
+    <input id="imgReplace" type="file" accept="image/*" style="display:none">
+    <button id="btnImport">Import HTML</button>
+    <button id="btnExport">Export HTML</button>
+    <button id="btnReplaceImg">Replace Image</button>
+    <button id="btnDelete">Delete</button>
+    <span id="info">Double-click text to edit. Drag to move elements.</span>
+  </div>
+  <div id="stageWrap">
+    <div id="stage" tabindex="0"></div>
+  </div>
+  <script src="src/app.js"></script>
+</body>
+</html>

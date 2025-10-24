@@ -1,0 +1,29 @@
+{
+  "name": "multi-file-repo",
+  "version": "1.0.0",
+  "description": "A multi-file repository for a Python and TypeScript application.",
+  "main": "src/main.py",
+  "homepage": "https://<your-github-username>.github.io/<repo-name>",
+  "scripts": {
+    "start": "node start-server.js",
+    "build": "tsc",
+    "test": "jest",
+    "deploy": "gh-pages -d ."
+  },
+  "dependencies": {
+    "typescript": "^4.5.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "jest": "^27.0.0",
+    "@types/jest": "^27.0.0",
+    "@types/node": "^16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/multi-file-repo.git"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
