@@ -6,7 +6,7 @@
   "homepage": "https://<your-github-username>.github.io/<repo-name>",
   "scripts": {
     "start": "node start-server.js",
-    "build": "tsc",
+    "build": "node build.js",
     "test": "jest",
     "deploy": "gh-pages -d ."
   },
